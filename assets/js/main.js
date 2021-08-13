@@ -1,35 +1,34 @@
 /*
-	songText += `<h1>Brain Damage Songtext</h1>`;
-songText += ``;
-	songText += `The lunatic is on the grass`;
-	songText += `The lunatic is on the grass`;
-	songText += `Remembering games and daisy chains and laughs`;
-	songText += `Got to keep the loonies on the path`;
-songText += ``;
-	songText += `The lunatic is in the hall`;
-	songText += `The lunatics are in my hall`;
-	songText += `The paper holds their folded faces to the floor`;
-	songText += `And every day the paperboy brings more`;
-songText += ``;
-	songText += `And if the dam breaks open many years too soon`;
-	songText += `And if there is no room upon the hill`;
-	songText += `And if ${you}r head explodes with dark forebodings too`;
-	songText += `I'll see ${you} on the dark side of the moon`;
-songText += ``;
-	songText += `The lunatic is in my head`;
-	songText += `The lunatic is in my head`;
-	songText += `${you} raise the blade, ${you} make the change`;
-	songText += `${you} rearrange me 'til I'm sane`;
-	songText += `${you} lock the door`;
-	songText += `And throw away the key`;
-	songText += `There's someone in my head but it's not me`;
-songText += ``;
-	songText += `And if the cloud bursts, thunder in ${you}r ear`;
-	songText += `${you} shout and no one seems to hear`;
-	songText += `And if the band ${you}'re in starts playing different tunes`;
-	songText += `I'll see ${you} on the dark side of the moon`;
-*/
+	Brain Damage Songtext
 
+	The lunatic is on the grass
+	The lunatic is on the grass
+	Remembering games and daisy chains and laughs
+	Got to keep the loonies on the path
+
+	The lunatic is in the hall
+	The lunatics are in my hall
+	The paper holds their folded faces to the floor
+	And every day the paperboy brings more
+
+	And if the dam breaks open many years too soon
+	And if there is no room upon the hill
+	And if your head explodes with dark forebodings too
+	I'll see you on the dark side of the moon
+
+	The lunatic is in my head
+	The lunatic is in my head
+	You raise the blade, you make the change
+	You rearrange me 'til I'm sane
+	You lock the door
+	And throw away the key
+	There's someone in my head but it's not me
+
+	And if the cloud bursts, thunder in your ear
+	You shout and no one seems to hear
+	And if the band you're in starts playing different tunes
+	I'll see you on the dark side of the moon
+*/
 
 let title = "<h1>Brain Damage Songtext</h1>";
 
@@ -50,7 +49,7 @@ let songText = [`${title}`];
 
 songText += onTheGrass.concat("<br>");
 songText += onTheGrass.concat("<br>");
-songText += `Remembering games and daisy chains and laughs<br>`;
+songText += 'Remembering games and daisy chains and laughs<br>';
 songText += `Got to keep the loonies on the path<br>`;
 songText += "<br>";
 songText += the.concat(" ", lunatic, " in the ", hall, "<br>");
